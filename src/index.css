@@ -1,0 +1,59 @@
+*{
+  color:#fff;
+  font-family: sans-serif;
+}
+
+input{
+  color: black;
+}
+
+body{
+  margin:0;
+  padding: 0;
+}
+
+.app{
+   background-color: #343541;
+   display: flex;
+}
+
+.sidebar{
+    background-color: #202123;
+    height: 100vh;
+    width: 244px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button{
+  border: solid 0.5px rgba(255,255,255,0.5);
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;   
+}
+
+nav{
+  border-top: solid 0.5px rgba(255,255,255,0.5);
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.histroy{
+  padding: 10px;
+  margin: 10px;
+  height: 100%;
+}
+
+.histroy li{
+  list-style-type: none ;
+  padding: 15px 0;
+  cursor: pointer;
+}
